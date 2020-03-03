@@ -149,6 +149,25 @@ main {
   }
 }
 
+.boxes-warning {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  div {
+    text-align: center;
+    font-size: 2rem;
+    border: 3px set-text-color($primary-color) solid;
+    padding: 1.5rem 2.5rem;
+    margin: 3rem;
+    @include easeOut;
+  }
+  i:hover {
+    color: $secondary-color;
+    @include easeOut;
+  }
+}
 //Button Sytles
 .btn {
   display: block;
