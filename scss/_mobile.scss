@@ -73,4 +73,11 @@
   .projects {
     grid-template-columns: 1fr;
   }
+  .fix {
+    margin-left: -6%;
+  }
+  .boxes-warning h2,
+  .boxes-warning h2 a {
+    font-size: 2rem;
+  }
 }
