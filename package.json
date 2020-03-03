@@ -6,7 +6,7 @@
   "homepage": "https://kaviisuri.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "node gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "el_torpedo",
   "license": "ISC",
